@@ -1,42 +1,207 @@
-#root {
-  max-width: 1280px;
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  /* background-color: rgb(160, 160, 160); */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* padding: 0 5%; */
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(37, 37, 37);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+/* HEADER */
+
+.header {
+  background-color: rgb(37, 37, 37);
+  padding: 40px 5%;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.contentHeader {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 10px 4%;
+  /* width: 90%; */
+  max-width: 1280px;
+  border-radius: 20px;
+  color: rgb(37, 37, 37);
+  background-color: white;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 {
+  color: black;
+  margin: 0 auto 10px;
+  padding: 0;
+  font-size: 2.2em;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* @include forTablet {
+      flex-direction: column;
+      margin: 20px auto 0;
+      h1 {
+        font-size: 1.4em;
+      }
+    } */
+
+/* @include forMobile2 {
+      h1 {
+        font-size: 1em;
+      }
+    } */
+
+/* NAVBAR */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* padding: 0 1%; */
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.navBarLink {
+  justify-content: flex-end;
+  color: rgb(37, 37, 37);
+  text-decoration: none;
+}
+.navBarLink:hover {
+  text-decoration: underline 0.1rem;
+}
+.navBarLink.active {
+  text-decoration: underline 0.1rem;
+}
+/* @include forTablet {
+      width: 90%;
+    }
+  
+    @include forMobile {
+      font-size: 12px;
+      text-transform: uppercase;
+  
+      .navBarLink {
+        // margin-left: 10px;
+        &:hover {
+          text-decoration: underline 1px;
+        }
+      }
+      .navBarLink.active {
+        text-decoration: underline 1px;
+      }
+    }
+    @include forMobile2 {
+      flex-direction: column;
+      font-size: 12px;
+      text-transform: uppercase;
+      .navBarLink {
+        margin: 2px auto;
+      }
+    } */
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+  box-sizing: border-box;
+  padding: 28px 0px 28px;
+  background-color: Black;
+  width: 100%;
+}
+.h3Logo {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* @include forMobile {
+    width: 100%;
+    margin-top: 20px;
+    h3 {
+      margin-top: 26px;
+      font-size: 12px;
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
+  @include forMobile2 {
+    h3 {
+      font-size: 10px;
+    }
+  } */
+
+/* Pages */
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+  padding: 0 5%;
 }
 
-.card {
-  padding: 2em;
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
-.read-the-docs {
-  color: #888;
+.my-image {
+  /* flex: 20%; */
+  /* min-width: 40%; */
+  /* max-height: 100%; */
+  border-radius: 6%;
+  overflow: hidden;
+  /* background-color: bisque; */
+}
+
+.middle {
+  width: 10%;
+  /* flex: 10%; */
+  /* min-width: 10%; */
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+img {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  object-position: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0;
+  /* width: 70%; */
+}
+
+p {
+  margin: 0px, auto, 0;
+}
+
+.empty {
+  flex-shrink: 1;
+  background-color: darkgrey;
 }

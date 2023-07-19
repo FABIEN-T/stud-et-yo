@@ -13,7 +13,7 @@ export default function Navbar() {
         to="/biography"
         className={({ isActive }) => `navBarLink ${isActive && 'active'}`}
       >
-        Biographie
+        Biographies
       </NavLink>
       <NavLink
         to="/listen"
@@ -22,16 +22,16 @@ export default function Navbar() {
         Ecouter Voir
       </NavLink>
       <NavLink
-        to="gallery"
+        to="/gallery"
         className={({ isActive }) => `navBarLink ${isActive && 'active'}`}
       >
-        Gallerie
+        Galerie
       </NavLink>
       <NavLink
         to="/organizer"
         className={({ isActive }) => `navBarLink ${isActive && 'active'}`}
       >
-        Biographies
+        Agenda
       </NavLink>
       <NavLink
         to="/contact"

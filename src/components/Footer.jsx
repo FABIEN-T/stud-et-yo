@@ -8,7 +8,7 @@ export default function Footer() {
       </h3> */}
 
       <h3 className="footerCopyrights">
-        © 2023 POTERIE DU HAUT DES TAPPES All rights reserved
+        © 2023 STUD & YO All rights reserved
       </h3>
     </footer>
   )

@@ -1,16 +1,43 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import image678 from '../assets/H47A4678.jpg'
+import image638 from '../assets/H47A4638.jpg'
 
 export default function Home() {
   return (
-    <>
+    <div className="page">
       <Header />
       <main>
-        <section>Stud & Yo</section>
-        <section>Emmanuelle Desimpel</section>
-        <section>Johann Vigon</section>
+        <div className="imgContainer">
+          <div className="my-image">
+            <img src={image638} alt="concert" />
+          </div>
+          <div className="middle"></div>
+          <div className="my-image">
+            <img src={image678} alt="concert" />
+          </div>
+        </div>
+        <section>
+          <h2>STUD...</h2>
+
+          <p>
+            ...C’est Emmanuelle Desimpel qui évolue entre textes engagés, poésie
+            douce amère et humour grinçant. Le propos se veut accessible,
+            chaleureux et teinté d’une petite touche évoquant le trio Brel,
+            Brassens, Ferré. Le feeling blues habite chaque chanson et une
+            envolée de scat peut surgir a tout moment.
+          </p>
+          <p>
+            Avec la complicité du batteur,percussioniste et choriste Johann
+            Vigon qui accompagne la chanteuse guitariste depuis près de trente
+            ans.
+          </p>
+        </section>
+        <section>
+          <div className="empty">Blabla</div>
+        </section>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }

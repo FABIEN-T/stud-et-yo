@@ -77,7 +77,7 @@ export default function Biography() {
                 </ul>
                 <p>
                   Elle a composé aussi pour le théâtre et met des textes
-                  d’auteur en musique
+                  d’auteur en musique.
                 </p>
               </div>
               <div className="my-imageBio">
@@ -105,11 +105,13 @@ export default function Biography() {
                   françaises ou de musiques du monde, il aura l’occasion de
                   jouer avec des Artistes comme: Mimi Lorenzini, Nicolas
                   Pautras, Manu Codja, Nicolas Moreaux, René Sopa, Seckou Keita,
-                  Emmanuelle Desimpel, Layba Kourouma, …)
+                  Emmanuelle Desimpel, Layba Kourouma, …).
                 </p>
-                <Link to="http://johannvigon.fr/" className="linkJohannVigon">
-                  Voir son site
-                </Link>
+                <p className="paragraphLinkVigon">
+                  <Link to="http://johannvigon.fr/" className="linkJohannVigon">
+                    Voir son site
+                  </Link>
+                </p>
               </div>
             </article>
           </section>

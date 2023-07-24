@@ -266,8 +266,7 @@ img {
 .linkJohannVigon {
   padding: 3px;
   color: white;
-  border: 1px solid white;
-  border-radius: 5px;
+  border-bottom: 1px solid white;
 }
 
 .linkJohannVigon:hover {
@@ -298,7 +297,8 @@ footer {
   align-self: flex-end;
   box-sizing: border-box;
   /* padding: 14px 0px 14px; */
-  background-color: Black;
+  /* background-color: Black; */
+  background-color: rgb(25, 25, 25);
   width: 100%;
   height: 100px;
 }

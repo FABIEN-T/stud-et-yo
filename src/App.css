@@ -244,12 +244,7 @@ img {
   object-position: center;
 }
 
-section p {
-  margin-top: 0;
-  line-height: 1.6em;
-}
-
-article p {
+.paraHome {
   margin: 0 0 1em;
   line-height: 1.6em;
 }
@@ -260,13 +255,16 @@ article p {
   justify-content: space-between;
 }
 
-.paragraphLink .paragraphLinkVigon {
-  color: blue;
+.paraBio {
   margin: 0;
 }
 
+.paraBioVigon {
+  margin: 0 0 1em;
+}
+
 .linkJohannVigon {
-  padding: 5px;
+  padding: 3px;
   color: white;
   border: 1px solid white;
   border-radius: 5px;

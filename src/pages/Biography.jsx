@@ -19,7 +19,7 @@ export default function Biography() {
               <div className="my-imageBio">
                 <img src={image761} alt="concert" />
               </div>
-              <p>
+              <p className="paraBio">
                 Du chant de sa mère au berceau, aux chansons reprises en chœur
                 dans les grandes tablées de repas familiaux naît le goût de
                 composer des chansons chez Emmanuelle Desimpel. Très jeune, la
@@ -46,7 +46,7 @@ export default function Biography() {
             <h2 id="bioDesimpel">Emmanuelle Desimpel</h2>
             <article>
               <div className="paralist">
-                <p>
+                <p className="paraBio">
                   Baignée dans la musique depuis son enfance Emmanuelle reçoit
                   sa première guitare a 13 ans .A 14 ans elle veut entrer au
                   conservatoire a Troyes .Elle y étudie le solfège et le
@@ -75,7 +75,7 @@ export default function Biography() {
                     <em>STUD</em>, chanson française
                   </li>
                 </ul>
-                <p>
+                <p className="paraBio">
                   Elle a composé aussi pour le théâtre et met des textes
                   d’auteur en musique.
                 </p>
@@ -92,7 +92,7 @@ export default function Biography() {
                 <img src={image736} alt="concert" />
               </div>
               <div className="paragraphLink">
-                <p>
+                <p className="paraBioVigon">
                   Il découvre la musique a 17 ans, mais dès lors, celle-ci ne le
                   quittera plus un instant, Musicien professionnel depuis 1995,
                   batteur de Jazz, puis percussionniste. Il se formera auprès
@@ -107,7 +107,7 @@ export default function Biography() {
                   Pautras, Manu Codja, Nicolas Moreaux, René Sopa, Seckou Keita,
                   Emmanuelle Desimpel, Layba Kourouma, …).
                 </p>
-                <p className="paragraphLinkVigon">
+                <p className="paraBio">
                   <Link to="http://johannvigon.fr/" className="linkJohannVigon">
                     Voir son site
                   </Link>

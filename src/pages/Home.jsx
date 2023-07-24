@@ -26,7 +26,7 @@ export default function Home() {
           {/* <article className="homeArticle"> */}
           <section>
             <h2>STUD...</h2>
-            <p>
+            <p className="paraHome">
               ... C’est
               <a href="/biography/#bioDesimpel"> Emmanuelle Desimpel </a>
               qui évolue entre textes engagés, poésie douce amère et humour
@@ -35,7 +35,7 @@ export default function Home() {
               blues habite chaque chanson et une envolée de scat peut surgir a
               tout moment.
             </p>
-            <p>
+            <p className="paraHome">
               Avec la complicité du batteur, percussioniste et choriste
               <a href="/biography/#bioVigon"> Johann Vigon </a>
               qui accompagne la chanteuse guitariste depuis près de trente ans.

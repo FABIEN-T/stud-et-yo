@@ -6,8 +6,19 @@ import Footer from '../components/Footer'
 import image761 from '../assets/H47A4761.jpg'
 import image679 from '../assets/H47A4679.jpg'
 import image736 from '../assets/H47A4736.jpg'
+import { useEffect } from 'react'
 
 export default function Biography() {
+  // console.log(window.location.hash)
+  useEffect(() => {
+    if (
+      window.location.hash === '#bioDesimpel' ||
+      window.location.hash === '#bioVigon'
+    ) {
+      window.location.replace('/biography/' + window.location.hash)
+    }
+  })
+
   return (
     <div className="page">
       <div className="headerMain">
